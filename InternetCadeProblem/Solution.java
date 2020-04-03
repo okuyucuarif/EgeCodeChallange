@@ -2,9 +2,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Solution {
-    public static int countingComputer(Map<Integer, Integer> clean) {
+    public static int countingComputer(Map<Integer, Integer> I) {
         int countforcouple = 0;
-        for (Map.Entry mapElement : clean.entrySet()) {
+        for (Map.Entry mapElement : I.entrySet()) {
 
             int key = (int) mapElement.getKey();
             int value = (int) mapElement.getValue();
